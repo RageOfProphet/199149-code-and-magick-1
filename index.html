@@ -32,6 +32,27 @@
                                                               width="130">Сделано в HTML Academy</a>в 2017 году</p>
 </footer>
 
+<script>
+var fireBallSize = 22;
+function getFireballSpeed (left) {
+  if (left === true) {
+    return -5;
+  } else {
+    return 2;
+  }
+}
+var wizardSpeed = 3;
+var wizardWidth = 70;
+function getWizardHeight (wizardWidth) {
+  return 1.337*wizardWidth;
+}
+function getWizardX (width) {
+  return width/2;
+}
+function getWizardY (height) {
+  return height*(1/3);
+}
+</script>
 <script src="js/game.js" type="application/javascript"></script>
 
 </body>
